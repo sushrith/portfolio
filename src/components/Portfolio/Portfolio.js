@@ -12,7 +12,7 @@ export const Portfolio = ({
     selectedSection,
     about,
     skills,
-    projects,education }) => {
+    projects,education,experience }) => {
     return (
         <div className="portfolio-container">
             <div className="sidenav-container">
@@ -28,7 +28,8 @@ export const Portfolio = ({
 					about={about}
 					skills={skills}
 					projects={projects} 
-                    education={education}/>
+                    education={education}
+                    experience={experience}/>
             </div>
         </div>
     );

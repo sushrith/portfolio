@@ -19,9 +19,20 @@
 
 .education-card > p {
     margin: 0;
+    display: flex;
+    justify-content: start;
 }
 
 .education-card:hover {
     transform: scale(1.05);
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+p{
+    width: 100%;
+}
+.title{
+    width: 30%;
+}
+.desc{
+    width: 90%;
 }

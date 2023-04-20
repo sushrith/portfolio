@@ -5,9 +5,9 @@ import './project-card.css';
 export const ProjectCard = ({ project }) => {
     return (
         <div className="project-card">
-            <p><b>Name:</b> {project.name}</p>
-            <p><b>Description:</b> {project.description}</p>
-            <p><b>Technologies:</b>{project.technologies} </p>
+            <p><span className='title'><b>Name : </b></span><span className='desc'>{project.name}</span></p>
+            <p><span className='title'><b>Description : </b> </span><span className='desc'>{project.description}</span></p>
+            <p><span className='title'><b>Technologies : </b></span><span className='desc'>{project.technologies}</span> </p>
         </div>
     )
 }

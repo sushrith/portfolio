@@ -1,5 +1,6 @@
 .portfolio-container {
-    background-color: #f7f7f7;
+    background-color: #000053;
+    color: white;
     margin: 20px;
     margin-left: 15%;
     width: 70%;
@@ -12,7 +13,7 @@
 
 @media only screen and (max-width: 600px) {
     .sidenav-container {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid white;
         border-radius: 0;
         padding-bottom: 32px;
     }
@@ -42,7 +43,7 @@
 
 @media only screen and (min-width: 600px) {
     .sidenav-container {
-        border-right: 1px solid black;
+        border-right: 1px solid white;
     }
 }
 

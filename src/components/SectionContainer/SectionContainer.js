@@ -6,6 +6,7 @@ import { Projects } from './../Projects/Projects';
 import { Education } from './../Education/Education';
 
 import './section-container.css';
+import Experience from '../Experience/Experience';
 
 export const SectionContainer = ({ 
     selectedHeading, 
@@ -13,7 +14,7 @@ export const SectionContainer = ({
     selectedSection,
     about,
     skills,
-    projects,education }) => {
+    projects,education,experience }) => {
     return (
         <div className="section-container">
             <div className="section-heading-container">
@@ -26,7 +27,8 @@ export const SectionContainer = ({
                         about: <About bio={about.bio} />,
                         skills: <Skills skills={skills} />,
                         projects: <Projects projects={projects} />,
-                        education:<Education education={education}/>
+                        education:<Education education={education}/>,
+                        experience:<Experience experience={experience}/>
                     }[selectedSection]
                 }
             </div>

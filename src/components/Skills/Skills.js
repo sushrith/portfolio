@@ -13,7 +13,7 @@ export const Skills = ({ skills }) => {
                     skills.techSkills.map(skill => <SkillCard skill={skill} />)
                 }
             </div>
-            <h3>Interpersonal Skills</h3>
+            <h3>Other Skills</h3>
             <div className="industry-skill-container">
                 {
                     skills.interpersonalSkills.map(skill => <SkillCard skill={skill} />)

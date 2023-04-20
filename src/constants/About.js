@@ -1,5 +1,7 @@
 export const about = {
     heading: "About Me",
-    "quote": "If you love life, don't waste time, \nfor time is what life is made up of",
-    "bio": "A cadet by nature and a developer by passion, a tech enthusiast and a full-stack developer who always want to learn programming, development and recent technologies. I am currently pursuing my BTech degree in computer science and engineering.\n\n I am  a hardworking person and work in a well-organized way scheduling my work properly. I am very much interested in learning new technologies and always love to do some challenging work."
-};
+    "quote": "FullStack Web Developer",
+    "bio": `Hi there! I'm a task-driven professional with over 2 years of experience at Deutsche bank in developing web applications. I specialize in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback. I'm always up for a challenge and love discovering innovative solutions that push the boundaries of what's possible.
+\nI'm a cadet by nature and a developer by passion. I'm a tech enthusiast and a full-stack developer who is always eager to learn programming, development, and recent technologies. 
+\nIf you're looking for a dedicated and skilled developer who is always willing to go the extra mile to get the job done, I'd love to hear from you!
+`};
